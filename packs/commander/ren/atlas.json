@@ -1,0 +1,100 @@
+{
+  "format": "alpha-desktop-atlas-v1",
+  "sheetWidth": 1536,
+  "sheetHeight": 1024,
+  "columns": 4,
+  "rows": 2,
+  "frames": {
+    "listening": {
+      "image": "ren-conversation.png",
+      "x": 0,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "resting-smile": {
+      "image": "ren-conversation.png",
+      "x": 0,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "listening-blink": {
+      "image": "ren-conversation.png",
+      "x": 384,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "speaking-small": {
+      "image": "ren-conversation.png",
+      "x": 768,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "speaking-wide": {
+      "image": "ren-conversation.png",
+      "x": 1152,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "speaking-rounded": {
+      "image": "ren-conversation.png",
+      "x": 0,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "thinking-up": {
+      "image": "ren-conversation.png",
+      "x": 384,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "thinking-side": {
+      "image": "ren-conversation.png",
+      "x": 384,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "success": {
+      "image": "ren-conversation.png",
+      "x": 768,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "success-delighted": {
+      "image": "ren-conversation.png",
+      "x": 768,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "error": {
+      "image": "ren-conversation.png",
+      "x": 1152,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "needs-input": {
+      "image": "ren-conversation.png",
+      "x": 1152,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "sleepy": {
+      "image": "ren-conversation.png",
+      "x": 384,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    }
+  }
+}

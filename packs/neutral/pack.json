@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "id": "neutral",
+  "name": "Neutral",
+  "host": "companion",
+  "greeting": "Connected to Pi.",
+  "persona": "",
+  "characters": {}
+}

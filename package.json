@@ -1,0 +1,16 @@
+{
+  "name": "shadows-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A local visual-novel desktop companion for Pi, with explicit session ownership.",
+  "keywords": ["pi-package", "desktop", "wayland"],
+  "license": "MIT",
+  "type": "module",
+  "engines": {"node": ">=22.18.0"},
+  "pi": {"extensions": ["./extensions/index.ts"]},
+  "scripts": {
+    "test": "node tests/state.test.ts && node tests/bridge.test.ts && python3 -m unittest discover -s tests -p 'test_*.py'",
+    "doctor": "python3 desktop/cli.py doctor",
+    "start": "python3 desktop/cli.py launch"
+  }
+}

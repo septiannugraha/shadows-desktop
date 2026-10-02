@@ -1,0 +1,100 @@
+{
+  "format": "alpha-desktop-atlas-v1",
+  "sheetWidth": 1536,
+  "sheetHeight": 1024,
+  "columns": 4,
+  "rows": 2,
+  "frames": {
+    "listening": {
+      "image": "kyouka-conversation.png",
+      "x": 0,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "resting-smile": {
+      "image": "kyouka-conversation.png",
+      "x": 0,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "listening-blink": {
+      "image": "kyouka-conversation.png",
+      "x": 384,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "speaking-small": {
+      "image": "kyouka-conversation.png",
+      "x": 768,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "speaking-wide": {
+      "image": "kyouka-conversation.png",
+      "x": 1152,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "speaking-rounded": {
+      "image": "kyouka-conversation.png",
+      "x": 0,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "thinking-up": {
+      "image": "kyouka-conversation.png",
+      "x": 384,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "thinking-side": {
+      "image": "kyouka-conversation.png",
+      "x": 384,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "success": {
+      "image": "kyouka-conversation.png",
+      "x": 768,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "success-delighted": {
+      "image": "kyouka-conversation.png",
+      "x": 768,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "error": {
+      "image": "kyouka-conversation.png",
+      "x": 1152,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "needs-input": {
+      "image": "kyouka-conversation.png",
+      "x": 1152,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "sleepy": {
+      "image": "kyouka-conversation.png",
+      "x": 384,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    }
+  }
+}

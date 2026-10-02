@@ -1,0 +1,184 @@
+{
+  "format": "alpha-desktop-atlas-v1",
+  "description": "Companion pack using the local Alpha atlas convention. Not a verified Pi API. Top-left origin; coordinates in source pixels.",
+  "sheetWidth": 1536,
+  "sheetHeight": 1024,
+  "columns": 4,
+  "rows": 2,
+  "frames": {
+    "listening": {
+      "image": "eta-conversation.png",
+      "x": 0,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "listening-blink": {
+      "image": "eta-conversation.png",
+      "x": 384,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "thinking-up": {
+      "image": "eta-conversation.png",
+      "x": 768,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "thinking-side": {
+      "image": "eta-conversation.png",
+      "x": 1152,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "speaking-small": {
+      "image": "eta-conversation.png",
+      "x": 0,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "speaking-wide": {
+      "image": "eta-conversation.png",
+      "x": 384,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "speaking-rounded": {
+      "image": "eta-conversation.png",
+      "x": 768,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "resting-smile": {
+      "image": "eta-conversation.png",
+      "x": 1152,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "notification": {
+      "image": "eta-status.png",
+      "x": 0,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "needs-input": {
+      "image": "eta-status.png",
+      "x": 384,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "success": {
+      "image": "eta-status.png",
+      "x": 768,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "success-delighted": {
+      "image": "eta-status.png",
+      "x": 1152,
+      "y": 0,
+      "width": 384,
+      "height": 512
+    },
+    "error": {
+      "image": "eta-status.png",
+      "x": 0,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "retry": {
+      "image": "eta-status.png",
+      "x": 384,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "sleepy": {
+      "image": "eta-status.png",
+      "x": 768,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    },
+    "asleep": {
+      "image": "eta-status.png",
+      "x": 1152,
+      "y": 512,
+      "width": 384,
+      "height": 512
+    }
+  },
+  "suggestedAnimations": {
+    "listening": {
+      "frames": [
+        "listening",
+        "listening-blink",
+        "listening"
+      ],
+      "durationsMs": [
+        2800,
+        120,
+        900
+      ],
+      "loop": true
+    },
+    "thinking": {
+      "frames": [
+        "thinking-up",
+        "thinking-side"
+      ],
+      "durationsMs": [
+        1100,
+        1100
+      ],
+      "loop": true
+    },
+    "speaking": {
+      "frames": [
+        "speaking-small",
+        "speaking-wide",
+        "speaking-rounded",
+        "resting-smile"
+      ],
+      "durationsMs": [
+        130,
+        110,
+        130,
+        100
+      ],
+      "loop": true
+    },
+    "success": {
+      "frames": [
+        "success",
+        "success-delighted",
+        "success"
+      ],
+      "durationsMs": [
+        300,
+        700,
+        500
+      ],
+      "loop": false
+    }
+  },
+  "notes": [
+    "Speech cycle is illustrative, not phoneme-accurate lip sync.",
+    "Generated portraits may shift slightly between frames; use held expressions or subtle transitions if needed.",
+    "Preserve PNG alpha; do not convert to RGB."
+  ],
+  "character": "eta",
+  "referenceImage": "../../eta.png",
+  "revision": "reference-outfit-v2"
+}
